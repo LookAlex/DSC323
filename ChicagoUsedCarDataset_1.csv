@@ -1,0 +1,663 @@
+region,price,year,manufacturer,model,condition,cylinders,fuel,odometer,title_status,transmission,drive,type
+chicago,10000,2015,chevrolet,silverado,good,6,gas,121000,clean,automatic,rwd,truck
+chicago,2500,2001,acura,mdx,excellent,6,gas,190000,clean,automatic,4wd,SUV
+chicago,6300,2013,ford,focus,good,4,gas,54000,salvage,automatic,fwd,sedan
+chicago,10895,2010,honda,cr-v,fair,4,gas,104772,clean,automatic,4wd,SUV
+chicago,6800,2003,toyota,4runner limited,excellent,6,gas,225000,clean,automatic,4wd,truck
+chicago,6995,2013,ford,,excellent,6,gas,163003,clean,automatic,4wd,SUV
+chicago,3900,2002,chevrolet,suburban 1500,good,8,gas,145000,clean,automatic,4wd,SUV
+chicago,3195,2010,mitsubishi,galant,excellent,4,gas,162000,clean,automatic,fwd,sedan
+chicago,4000,2011,ford,taurus se,excellent,6,gas,212000,clean,automatic,fwd,sedan
+chicago,8995,2015,ford,escape,good,4,gas,108485,clean,automatic,rwd,SUV
+chicago,8900,2011,honda,odyssey exl,excellent,4,gas,130000,clean,automatic,fwd,van
+chicago,20497,2016,acura,mdx,fair,6,gas,79770,clean,automatic,4wd,SUV
+chicago,2000,2005,toyota,corolla,fair,4,gas,181000,clean,automatic,fwd,sedan
+chicago,7497,2012,nissan,rogue,fair,4,gas,135156,clean,automatic,4wd,sedan
+chicago,14000,2016,toyota,camry se,excellent,4,gas,48000,clean,automatic,fwd,sedan
+chicago,2995,2002,volvo,v70,excellent,5,gas,160229,clean,automatic,fwd,sedan
+chicago,21995,2020,nissan,rogue,fair,4,gas,21258,clean,automatic,fwd,sedan
+chicago,2500,2001,dodge,neon highline se,like new,4,gas,55042,clean,manual,fwd,sedan
+chicago,2500,2007,toyota,camry,good,6,gas,150000,clean,manual,fwd,sedan
+chicago,3900,2003,acura,cl,good,6,gas,89900,clean,automatic,fwd,coupe
+chicago,2750,2007,pontiac,torrent awd,good,4,gas,153200,clean,automatic,4wd,SUV
+chicago,3900,2005,toyota,sienna,good,6,gas,125000,clean,automatic,fwd,van
+chicago,3850,2004,honda,civic,excellent,4,gas,160000,clean,automatic,fwd,sedan
+chicago,7400,1984,chevrolet,monte carlo,like new,8,gas,31977,clean,automatic,rwd,coupe
+chicago,44200,2015,rover,sport,like new,6,gas,49700,clean,automatic,4wd,SUV
+chicago,9975,2015,ford,transit connect,good,4,gas,144716,clean,automatic,fwd,van
+chicago,16975,2016,ford,transit,good,10,gas,123352,clean,automatic,4wd,van
+chicago,8881,2011,nissan,murano,fair,6,gas,117700,clean,automatic,4wd,SUV
+chicago,2200,2000,saturn,ls1,fair,4,gas,89878,clean,automatic,fwd,sedan
+chicago,6900,2009,ram,1500,fair,8,gas,228178,clean,automatic,4wd,truck
+chicago,3900,2000,volkswagen,cabrio coupe,excellent,4,gas,97000,clean,automatic,fwd,coupe
+chicago,7950,2016,chevrolet,cruze ls,excellent,4,gas,62962,rebuilt,automatic,fwd,sedan
+chicago,6995,1984,ford,thunderbird,good,8,gas,40000,clean,automatic,rwd,coupe
+chicago,5800,2007,dodge,charger,good,6,gas,110000,clean,automatic,rwd,sedan
+chicago,40000,1963,pontiac,catalina,like new,8,gas,0,clean,manual,rwd,coupe
+chicago,7850,2008,honda,civic si sedan,excellent,4,gas,124000,clean,manual,fwd,sedan
+chicago,7495,2013,buick,encore,excellent,4,gas,99119,clean,automatic,fwd,SUV
+chicago,8750,2015,volkswagen,golf,excellent,4,gas,96222,clean,manual,fwd,sedan
+chicago,15500,2011,audi,a8l,excellent,8,gas,127000,clean,automatic,fwd,SUV
+chicago,14000,2006,toyota,avalon,excellent,6,gas,25730,clean,automatic,fwd,sedan
+chicago,7000,2004,nissan,altima,excellent,4,gas,83000,clean,automatic,fwd,sedan
+chicago,5000,1992,toyota,4runner sr5,good,6,gas,163793,clean,automatic,4wd,SUV
+chicago,21879,2014,audi,q7,fair,6,diesel,77966,clean,automatic,4wd,SUV
+chicago,14000,2007,volvo,vnl 670,fair,10,diesel,1000000,clean,manual,4wd,truck
+chicago,800,2002,toyota,corolla,good,4,gas,148000,clean,automatic,fwd,sedan
+chicago,3750,2006,toyota,sienna,good,6,gas,193000,clean,automatic,fwd,van
+chicago,7490,2013,dodge,dart,excellent,4,gas,55000,clean,manual,fwd,sedan
+chicago,3400,2003,dodge,caravan,good,6,gas,88200,clean,automatic,fwd,van
+chicago,17300,2015,lincoln,navigator l,excellent,6,gas,210000,clean,automatic,4wd,SUV
+chicago,4500,2012,mitsubishi,eclipse,like new,4,gas,94000,clean,automatic,fwd,coupe
+chicago,11250,2012,cadillac,srx,excellent,6,gas,72250,clean,automatic,fwd,SUV
+chicago,6490,2014,chevrolet,cruze lt,excellent,4,gas,102000,clean,automatic,fwd,sedan
+chicago,4250,2011,ford,crown victoria police,good,8,gas,130000,clean,automatic,rwd,sedan
+chicago,1500,1995,buick,century,fair,6,gas,69200,clean,automatic,fwd,sedan
+chicago,6000,1955,chrysler,windsor,excellent,8,gas,97,clean,automatic,rwd,sedan
+chicago,24990,2006,chevrolet,cc4500,good,8,gas,104422,clean,automatic,rwd,truck
+chicago,2800,2004,gmc,savanna cargo,good,8,gas,142000,clean,automatic,rwd,van
+chicago,9495,2014,ford,escape se,excellent,4,gas,69883,clean,automatic,fwd,SUV
+chicago,12497,2016,chrysler,300,fair,6,gas,97950,clean,automatic,rwd,sedan
+chicago,2500,2008,kia,rio,good,4,gas,167000,clean,automatic,fwd,sedan
+chicago,49821,2020,chevrolet,4500 lcf gas,like new,8,gas,245,clean,automatic,rwd,truck
+chicago,8400,2012,bmw,328i,excellent,4,gas,130000,clean,automatic,rwd,sedan
+chicago,2200,1995,jeep,wrangler,good,4,gas,151000,clean,automatic,4wd,truck
+chicago,3800,1954,dodge,meadowbrook,good,8,gas,57600,clean,manual,rwd,sedan
+chicago,5200,2008,ford,edge 4dr sel awd,excellent,6,gas,147500,clean,automatic,4wd,SUV
+chicago,12950,2004,chevrolet,duramax / allison,excellent,8,diesel,242177,clean,automatic,4wd,truck
+chicago,23863,2016,toyota,highlander,fair,6,gas,70115,clean,automatic,4wd,SUV
+chicago,8000,2012,honda,civic,good,4,gas,57905,clean,automatic,fwd,sedan
+chicago,27995,2014,ram,promaster 3500,like new,6,gas,9600,clean,automatic,fwd,van
+chicago,7749,2007,gmc,sierra,good,8,gas,188418,clean,automatic,rwd,truck
+chicago,18500,2016,cadillac,srx,fair,6,gas,82629,clean,automatic,4wd,SUV
+chicago,5000,2008,gmc,envoy,excellent,4,gas,169000,clean,automatic,4wd,SUV
+chicago,7990,2011,chrysler,300,like new,6,gas,174000,clean,automatic,rwd,sedan
+chicago,7200,2004,lexus,es330,good,6,gas,74200,clean,automatic,fwd,sedan
+chicago,3900,1989,ford,mustang gt coupe,good,8,gas,140,clean,manual,rwd,coupe
+chicago,3995,2005,infiniti,g35,excellent,6,gas,160000,clean,automatic,fwd,sedan
+chicago,3999,2012,kia,soul,fair,4,gas,141461,clean,automatic,fwd,sedan
+chicago,5500,2008,volvo,s 40,excellent,4,gas,107052,clean,manual,fwd,sedan
+chicago,28995,2017,bmw,3 series,fair,4,gas,33585,clean,automatic,4wd,sedan
+chicago,6800,2015,nissan,altima,good,4,gas,123000,clean,automatic,fwd,sedan
+chicago,19900,2013,lexus,gs 350,excellent,6,gas,73000,clean,automatic,4wd,sedan
+chicago,44648,2020,bmw,x1,excellent,4,gas,2080,clean,automatic,4wd,SUV
+chicago,7200,2012,fiat,500 sport,excellent,4,gas,71400,clean,manual,fwd,sedan
+chicago,3000,2005,saturn,ion,excellent,4,gas,87000,clean,automatic,fwd,sedan
+chicago,12440,2009,lexus,rx 350,fair,6,gas,76103,clean,automatic,4wd,SUV
+chicago,18200,2014,jeep,grand cherokee,fair,6,gas,85403,clean,automatic,4wd,SUV
+chicago,4000,1993,chevrolet,cheyenne 1500,good,8,gas,89200,clean,automatic,4wd,truck
+chicago,23998,2017,bmw,3 series,fair,4,gas,37283,clean,automatic,4wd,sedan
+chicago,15999,1988,chevrolet,blazer,excellent,8,gas,34000,clean,automatic,4wd,truck
+chicago,9900,2012,honda,pilot ex-l,like new,6,gas,78,clean,automatic,4wd,SUV
+chicago,1400,1984,pontiac,fiero gt,good,4,gas,91000,clean,automatic,rwd,coupe
+chicago,9990,2015,chevrolet,captiva sport,excellent,4,gas,103000,clean,automatic,fwd,SUV
+chicago,10995,2009,jaguar,xj8,excellent,8,gas,66000,clean,automatic,rwd,sedan
+chicago,5500,2006,lincoln,town car,excellent,8,gas,129032,clean,automatic,rwd,sedan
+chicago,11950,2017,toyota,corolla,excellent,4,gas,66684,clean,automatic,fwd,sedan
+chicago,11500,2013,mini,cooper countryman,excellent,4,gas,59000,clean,automatic,4wd,sedan
+chicago,3333,2008,nissan,versa,good,4,gas,102500,clean,automatic,fwd,sedan
+chicago,12500,2015,dodge,promaster 1500,good,4,diesel,110557,clean,automatic,fwd,van
+chicago,10997,2017,ford,escape,good,4,gas,97666,clean,automatic,4wd,SUV
+chicago,4499,2010,volkswagen,jetta,good,4,gas,150000,clean,manual,fwd,sedan
+chicago,500,2017,nissan,maxima platinum,like new,6,gas,36000,clean,automatic,4wd,sedan
+chicago,500,2017,nissan,maxima platinum,like new,6,gas,36000,clean,automatic,4wd,sedan
+chicago,500,2017,nissan,maxima platinum,like new,6,gas,36000,clean,automatic,4wd,sedan
+chicago,500,2017,nissan,maxima platinum,like new,6,gas,36000,clean,automatic,4wd,sedan
+chicago,29900,2001,porsche,911,excellent,6,gas,29500,clean,manual,rwd,coupe
+chicago,5500,1989,buick,electra park avenue,excellent,6,gas,61000,rebuilt,automatic,fwd,sedan
+chicago,5795,2009,toyota,camry,good,4,gas,94450,clean,automatic,4wd,sedan
+chicago,3800,2000,acura,tl,good,6,gas,166000,clean,automatic,fwd,sedan
+chicago,31500,2015,ford,f550 4x4 super duty,excellent,8,diesel,153000,clean,automatic,4wd,truck
+chicago,22999,2019,dodge,challenger,fair,6,gas,118876,clean,automatic,4wd,coupe
+chicago,2800,2004,buick,century,excellent,6,gas,96000,clean,automatic,fwd,sedan
+chicago,500,2013,dodge,charger,like new,6,gas,101000,clean,automatic,rwd,sedan
+chicago,2000,2009,chevrolet,aveo 5 sedan,good,4,gas,164000,clean,automatic,fwd,sedan
+chicago,3950,2006,jeep,grand cherokee,excellent,4,gas,190000,clean,automatic,4wd,SUV
+chicago,5000,2002,cadillac,eldorado,good,8,gas,83020,clean,automatic,fwd,coupe
+chicago,9500,2009,toyota,highlander limited,excellent,6,gas,142000,clean,automatic,4wd,SUV
+chicago,6999,2011,volkswagen,jetta,fair,5,gas,92614,clean,automatic,fwd,sedan
+chicago,28999,2014,jeep,wrangler,excellent,6,gas,95000,clean,manual,4wd,truck
+chicago,16500,2014,chevrolet,silverado 1500,good,8,gas,194500,clean,automatic,4wd,truck
+chicago,16000,2011,rover,,excellent,8,gas,102000,clean,automatic,4wd,SUV
+chicago,3590,2007,ford,focus,excellent,4,gas,136000,clean,automatic,fwd,sedan
+chicago,17391,2016,toyota,prius v,fair,4,hybrid,49152,clean,automatic,fwd,sedan
+chicago,6000,2007,lexus,es 350,good,6,gas,150000,clean,automatic,fwd,sedan
+chicago,5500,2012,nissan,sentra sr,good,4,gas,98805,rebuilt,automatic,fwd,sedan
+chicago,5250,2012,ford,fusion le,good,4,gas,80100,rebuilt,automatic,fwd,sedan
+chicago,24786,2015,bmw,7 series,fair,8,gas,93662,clean,automatic,4wd,sedan
+chicago,500,2011,infiniti,g37 x,like new,6,gas,110000,clean,automatic,4wd,sedan
+chicago,7000,2009,nissan,murano sl,excellent,6,gas,143900,clean,automatic,rwd,SUV
+chicago,3995,2009,pontiac,g6,like new,6,gas,120000,clean,automatic,fwd,sedan
+chicago,2995,2007,ford,taurus se,like new,6,gas,140000,clean,automatic,fwd,sedan
+chicago,3995,2004,honda,pilot ex-l,good,6,gas,148800,clean,automatic,4wd,SUV
+chicago,2000,2004,saturn,vue,good,6,gas,206000,clean,automatic,fwd,SUV
+chicago,8500,2008,volvo,xc90,fair,8,gas,91537,clean,automatic,4wd,SUV
+chicago,3000,2003,jeep,grand cherokee laredo,good,8,gas,139000,clean,automatic,4wd,SUV
+chicago,4990,2006,jeep,grand cherokee laredo,good,6,gas,150000,clean,automatic,4wd,SUV
+chicago,2400,2009,kia,borrego,good,6,gas,225000,clean,automatic,rwd,SUV
+chicago,6950,2007,honda,pilot ex-l,like new,6,gas,136000,clean,automatic,4wd,SUV
+chicago,2900,1997,volvo,850,excellent,5,gas,130000,clean,manual,fwd,sedan
+chicago,43000,2017,toyota,tacoma,like new,6,gas,1400,lien,automatic,4wd,truck
+chicago,69870,2020,chevrolet,silverado 5500hd,like new,8,diesel,59,clean,automatic,rwd,truck
+chicago,34750,2016,bmw,x5,excellent,8,gas,45366,clean,automatic,4wd,SUV
+chicago,1900,2002,ford,taurus,good,6,gas,125000,clean,automatic,fwd,sedan
+chicago,8750,2007,honda,ridgeline rtl 4wd,excellent,6,gas,128000,clean,automatic,4wd,truck
+chicago,10900,2011,toyota,sienna xle awd,like new,6,gas,88241,clean,automatic,4wd,van
+chicago,18000,2013,bmw,328i,like new,4,gas,38000,clean,automatic,rwd,sedan
+chicago,6995,2013,ford,focus,fair,4,gas,88006,clean,manual,fwd,sedan
+chicago,1750,2007,dodge,dakota,fair,6,gas,127000,clean,automatic,4wd,truck
+chicago,14184,2013,honda,cr-v,fair,4,gas,60258,clean,automatic,4wd,SUV
+chicago,8000,2007,nissan,frontier se crew cab 4x4,excellent,6,gas,133266,clean,automatic,4wd,truck
+chicago,9450,1990,chevrolet,corvette,excellent,8,gas,79000,clean,manual,rwd,sedan
+chicago,9000,2007,rover,sport,good,8,gas,135000,clean,manual,4wd,SUV
+chicago,1700,2006,chevrolet,malibu lt,good,6,gas,114000,clean,automatic,fwd,sedan
+chicago,8500,2011,toyota,camry,good,4,gas,105284,clean,automatic,fwd,sedan
+chicago,4300,2007,mercury,milan premier,excellent,6,gas,93557,clean,automatic,fwd,sedan
+chicago,6999,2010,toyota,,excellent,4,gas,119878,clean,automatic,fwd,sedan
+chicago,5900,2007,chevrolet,silverado 1500,good,8,gas,200000,clean,automatic,4wd,truck
+chicago,9995,2007,audi,s8,good,10,gas,112722,clean,automatic,4wd,sedan
+chicago,3600,2007,honda,accord,good,4,gas,140000,clean,automatic,fwd,SUV
+chicago,45000,2018,dodge,charger r/t scat pack,like new,8,gas,1007,clean,automatic,rwd,coupe
+chicago,10900,2015,dodge,durango,good,6,gas,105000,clean,automatic,4wd,SUV
+chicago,18985,2015,audi,q5,fair,4,gas,57721,clean,automatic,4wd,SUV
+chicago,5800,2009,saturn,outlook xr awd,excellent,6,gas,162000,clean,automatic,fwd,SUV
+chicago,9600,2016,subaru,impreza,excellent,4,gas,44000,rebuilt,automatic,4wd,sedan
+chicago,5900,2008,ford,f450 super duty,excellent,8,diesel,135000,rebuilt,automatic,4wd,truck
+chicago,69000,2014,mercedes-benz,e63 amg,like new,8,gas,30500,clean,automatic,4wd,sedan
+chicago,4500,2005,jeep,grand cherokee,excellent,4,gas,122000,clean,automatic,fwd,SUV
+chicago,8700,2008,honda,odyssey touring,like new,6,gas,107756,clean,automatic,fwd,van
+chicago,3999,1999,honda,accord,excellent,6,gas,166857,clean,automatic,fwd,coupe
+chicago,1200,2007,kia,rio,fair,4,gas,169000,clean,automatic,rwd,sedan
+chicago,59995,2019,gmc,savana g3500 l quigley,like new,8,gas,1500,clean,automatic,4wd,van
+chicago,11250,2014,buick,regal,excellent,4,gas,85809,clean,automatic,4wd,sedan
+chicago,6495,2011,nissan,rogue,excellent,4,gas,69854,clean,automatic,4wd,SUV
+chicago,5900,1995,ford,f250 xlt,like new,8,gas,160,clean,automatic,4wd,truck
+chicago,17800,2014,infiniti,q50,fair,6,gas,63816,clean,automatic,4wd,sedan
+chicago,2995,2005,buick,,excellent,6,gas,139000,clean,automatic,4wd,SUV
+chicago,1100,2006,ford,fusion,good,4,gas,186000,clean,manual,fwd,sedan
+chicago,3200,2003,kia,rio,good,4,gas,41567,clean,automatic,fwd,SUV
+chicago,1850,2000,honda,odyssey,good,6,gas,302600,clean,automatic,fwd,van
+chicago,4595,2011,nissan,sentra s,good,4,gas,82000,clean,automatic,fwd,sedan
+chicago,2850,2008,ford,taurus sel,good,6,gas,56000,clean,automatic,fwd,sedan
+chicago,8490,2012,chevrolet,traverse,excellent,6,gas,83181,clean,automatic,fwd,SUV
+chicago,20990,2007,chevrolet,express cargo van,good,8,gas,133355,clean,automatic,rwd,truck
+chicago,750,2002,ford,econoline e350,good,8,gas,207071,clean,automatic,rwd,van
+chicago,4000,2007,volvo,xc90,good,6,gas,193000,clean,automatic,4wd,SUV
+chicago,6950,2009,honda,fit,excellent,4,gas,74210,clean,automatic,fwd,sedan
+chicago,16499,2019,hyundai,sonata,fair,4,gas,32948,clean,automatic,fwd,sedan
+chicago,5954,2007,chevrolet,malibu ltz,excellent,6,gas,133728,clean,automatic,fwd,sedan
+chicago,7000,2013,kia,sorento lx,good,4,gas,104206,clean,automatic,fwd,SUV
+chicago,1700,2003,hyundai,santa fe,fair,6,gas,190000,clean,automatic,fwd,SUV
+chicago,2800,2005,lincoln,town car,good,8,gas,235000,clean,automatic,rwd,sedan
+chicago,15500,2002,harley-davidson,davidson,excellent,8,gas,168000,clean,automatic,fwd,truck
+chicago,2500,2006,buick,lacrosse,good,6,gas,140000,clean,automatic,fwd,sedan
+chicago,15000,1987,buick,regal,like new,8,gas,72000,clean,automatic,rwd,coupe
+chicago,3500,1997,bmw,740il,good,8,gas,135000,clean,automatic,rwd,sedan
+chicago,2800,1998,buick,lesabre custom,fair,6,gas,151210,clean,automatic,fwd,sedan
+chicago,7500,2009,lexus,rx 350,excellent,6,gas,184000,clean,automatic,fwd,SUV
+chicago,8995,2011,toyota,,excellent,6,gas,158859,clean,automatic,fwd,van
+chicago,10950,2015,volkswagen,golf,excellent,4,diesel,103614,clean,automatic,fwd,sedan
+chicago,17000,2013,gmc,acadia,excellent,6,gas,99137,clean,automatic,4wd,SUV
+chicago,11457,2012,volkswagen,jetta,fair,4,gas,70390,clean,automatic,fwd,sedan
+chicago,500,2011,jeep,wrangler,like new,6,gas,110000,clean,automatic,4wd,truck
+chicago,6600,2012,toyota,yaris le,excellent,4,gas,71000,clean,automatic,fwd,coupe
+chicago,14989,2012,toyota,highlander,fair,6,gas,110224,clean,automatic,4wd,SUV
+chicago,16497,2017,honda,civic,fair,4,gas,42615,clean,automatic,fwd,sedan
+chicago,6500,2008,mercedes-benz,benz e350,excellent,6,gas,140000,clean,automatic,rwd,sedan
+chicago,12500,2009,ford,ranger,good,4,gas,65730,clean,automatic,rwd,truck
+chicago,6500,2010,ford,transit connect,good,4,gas,84000,clean,automatic,fwd,van
+chicago,5800,2010,subaru,outback 2.5i limited,good,4,gas,201607,clean,automatic,4wd,SUV
+chicago,23475,2014,chevrolet,express,good,8,gas,71847,clean,automatic,4wd,van
+chicago,15997,2017,mazda,mazda6,fair,4,gas,36296,clean,automatic,fwd,sedan
+chicago,4100,2005,ford,five hundred,like new,6,gas,86500,clean,automatic,fwd,sedan
+chicago,6500,2009,volkswagen,beetle,excellent,4,gas,56647,clean,automatic,fwd,sedan
+chicago,15995,2013,ford,f-150,good,4,gas,130254,clean,automatic,fwd,truck
+chicago,12250,2016,mazda,mazda3,excellent,4,gas,56985,clean,automatic,fwd,sedan
+chicago,4400,2005,ford,explorer,good,8,gas,174000,clean,automatic,4wd,SUV
+chicago,1700,1995,cadillac,eldorado,good,8,gas,93117,clean,automatic,fwd,coupe
+chicago,3999,2009,hyundai,elantra touring,fair,4,gas,168596,clean,automatic,fwd,sedan
+chicago,65000,1963,pontiac,tempest,excellent,8,gas,0,clean,manual,rwd,sedan
+chicago,29436,2017,bmw,3 series,fair,4,gas,17598,clean,automatic,4wd,sedan
+chicago,2500,2016,nissan,altima sv,excellent,4,gas,72000,clean,automatic,fwd,sedan
+chicago,3900,2004,nissan,maxima 3.5 sl,good,6,gas,138000,clean,manual,fwd,sedan
+chicago,2800,2000,pontiac,bonneville se,excellent,6,gas,94714,clean,automatic,fwd,sedan
+chicago,12990,2007,gmc,yukon,excellent,8,gas,118042,clean,automatic,4wd,SUV
+chicago,32500,2016,dodge,charger 392 srt,excellent,8,gas,58927,clean,automatic,rwd,sedan
+chicago,2200,1993,mercedes-benz,benz 500sel,excellent,8,gas,158000,clean,automatic,rwd,sedan
+chicago,3495,2007,ford,freestyle limited,excellent,6,gas,165439,clean,automatic,fwd,SUV
+chicago,4995,2012,jeep,patriot,fair,4,gas,112000,clean,automatic,fwd,SUV
+chicago,9500,2008,audi,a8 quattro,excellent,6,gas,116000,clean,automatic,4wd,sedan
+chicago,4000,1980,ford,bronco,fair,8,gas,75000,clean,automatic,4wd,truck
+chicago,7500,2002,ford,f-250 super duty,excellent,8,gas,113000,clean,automatic,4wd,truck
+chicago,4999,2003,toyota,,excellent,6,gas,237425,clean,automatic,4wd,SUV
+chicago,2400,2006,nissan,quest,good,6,gas,130000,clean,automatic,fwd,van
+chicago,18975,2011,chevrolet,express,good,8,gas,77168,clean,automatic,4wd,van
+chicago,10995,2011,mercedes-benz,c-class,fair,4,gas,92672,clean,automatic,fwd,sedan
+chicago,1695,1998,ford,taurus se,excellent,6,gas,112548,clean,automatic,fwd,sedan
+chicago,15990,2004,ford,f350 diesels powerstroke,good,8,diesel,70000,clean,automatic,4wd,truck
+chicago,1800,1999,chevrolet,geo prizm,excellent,4,gas,132000,clean,automatic,fwd,sedan
+chicago,23500,2011,toyota,tacoma,like new,6,gas,63091,clean,automatic,4wd,truck
+chicago,6500,2006,cadillac,escalade esv,good,8,gas,167000,clean,automatic,4wd,SUV
+chicago,19975,2017,ford,transit,good,6,gas,70450,clean,automatic,rwd,van
+chicago,3850,2003,honda,accord,excellent,6,gas,153000,clean,automatic,fwd,sedan
+chicago,3500,1991,lincoln,mark vii bill blass,fair,8,gas,108000,clean,automatic,rwd,coupe
+chicago,5200,2006,honda,odyssey,excellent,6,gas,128000,clean,automatic,fwd,van
+chicago,14991,2015,cadillac,ats,fair,4,gas,75606,clean,automatic,4wd,sedan
+chicago,3799,2007,toyota,camry le,excellent,4,gas,204000,clean,automatic,fwd,sedan
+chicago,3500,2006,buick,lucerne,good,6,gas,162000,clean,automatic,fwd,sedan
+chicago,500,2018,ford,fusion,like new,4,gas,20000,clean,automatic,fwd,sedan
+chicago,500,2018,ford,fusion,like new,4,gas,20000,clean,automatic,fwd,sedan
+chicago,2400,2006,ford,freestyle limited,fair,6,gas,117462,clean,automatic,fwd,van
+chicago,3500,2007,cadillac,cts,good,6,gas,149000,clean,automatic,rwd,sedan
+chicago,7500,2009,toyota,matrix awd,good,4,gas,116000,clean,automatic,4wd,sedan
+chicago,9990,2016,ford,fiesta se,excellent,4,gas,35520,clean,automatic,fwd,sedan
+chicago,4850,2007,chevrolet,malibu,excellent,4,gas,82660,clean,automatic,fwd,sedan
+chicago,5500,2011,nissan,rogue sl,excellent,6,gas,168000,clean,automatic,4wd,SUV
+chicago,19999,2017,ram,2500 cargo van,good,6,gas,48000,clean,automatic,fwd,truck
+chicago,7975,2009,jeep,patriot,good,10,gas,60586,clean,automatic,rwd,SUV
+chicago,5750,2008,volkswagen,gti,good,4,gas,64300,rebuilt,automatic,fwd,sedan
+chicago,9954,2012,honda,pilot,fair,6,gas,194238,clean,automatic,4wd,SUV
+chicago,4400,2003,lincoln,town car executive,excellent,8,gas,101000,clean,automatic,fwd,sedan
+chicago,500,2012,jeep,grand overland hemi,like new,8,gas,120000,clean,automatic,rwd,SUV
+chicago,500,2012,jeep,grand overland hemi,like new,8,gas,120000,clean,automatic,rwd,SUV
+chicago,29875,2015,lexus,rc 350 coupe,excellent,6,gas,22700,clean,automatic,4wd,coupe
+chicago,3349,2002,mitsubishi,montero sport ls,good,6,gas,92000,clean,automatic,fwd,SUV
+chicago,18500,1980,pontiac,firebird formula,excellent,8,gas,60000,clean,automatic,rwd,coupe
+chicago,4950,2004,chevrolet,tahoe,good,8,gas,159825,clean,automatic,4wd,SUV
+chicago,7800,2005,ford,f350 super duty,good,8,diesel,109000,clean,automatic,4wd,truck
+chicago,4495,2004,pontiac,vibe,excellent,4,gas,117794,clean,automatic,fwd,sedan
+chicago,5954,2010,mazda,3,good,4,gas,136098,clean,automatic,fwd,sedan
+chicago,1200,2007,bmw,525i,fair,6,gas,190000,clean,automatic,rwd,sedan
+chicago,10500,2011,cadillac,dts,excellent,8,gas,42000,clean,automatic,fwd,sedan
+chicago,2895,2005,chrysler,town & country,good,6,gas,157175,clean,automatic,fwd,van
+chicago,7995,2010,toyota,sienna,good,6,gas,143320,clean,automatic,fwd,van
+chicago,4600,2012,ford,f-150,good,8,gas,120000,clean,automatic,rwd,truck
+chicago,24990,2014,chevrolet,express commercial cutaway,good,8,gas,53765,clean,automatic,rwd,truck
+chicago,1300,2007,ford,focus,excellent,4,gas,130000,clean,automatic,fwd,sedan
+chicago,50000,2020,mercedes-benz,benz sprinter 3500xd,like new,6,diesel,5,clean,automatic,rwd,van
+chicago,4999,2006,toyota,,good,6,gas,168205,clean,automatic,fwd,SUV
+chicago,30,2010,toyota,camry,good,6,gas,125000,clean,automatic,fwd,sedan
+chicago,5300,2007,toyota,avalon touring,excellent,4,gas,162000,clean,automatic,fwd,sedan
+chicago,3500,2007,ford,e250 cargo van extended,good,8,gas,244000,clean,automatic,rwd,SUV
+chicago,10900,2013,buick,enclave,like new,6,gas,71451,clean,automatic,fwd,SUV
+chicago,5300,2006,buick,lacrosse cx,excellent,6,gas,109880,clean,automatic,fwd,sedan
+chicago,4399,2010,nissan,rogue s,good,4,gas,116500,clean,automatic,4wd,SUV
+chicago,1900,2003,bmw,325i,good,6,gas,147000,clean,automatic,rwd,sedan
+chicago,3200,2005,lincoln,town car signature limit,good,8,gas,180223,clean,automatic,rwd,sedan
+chicago,10500,2008,acura,tl,excellent,6,gas,44500,clean,automatic,fwd,sedan
+chicago,11975,2008,ford,crown victoria,good,8,gas,21203,clean,automatic,rwd,sedan
+chicago,4495,2002,chrysler,pt cruiser,excellent,4,gas,78152,clean,automatic,fwd,sedan
+chicago,14750,2008,cadillac,escalade ext,excellent,8,gas,141000,clean,automatic,4wd,truck
+chicago,9500,2014,jeep,patriot latitude,excellent,4,gas,50000,clean,automatic,fwd,SUV
+chicago,5700,2009,honda,fit h/b,like new,4,gas,70000,clean,automatic,fwd,sedan
+chicago,5999,2013,chevrolet,sonic,fair,4,gas,90324,clean,automatic,fwd,sedan
+chicago,8995,2013,bmw,x1 xdrive28i,excellent,4,gas,129250,clean,automatic,4wd,SUV
+chicago,2875,1998,chevrolet,astro cargo van,good,6,gas,240000,clean,automatic,rwd,van
+chicago,2800,2004,honda,accord,excellent,6,gas,170000,rebuilt,automatic,fwd,sedan
+chicago,8700,2002,chevrolet,suburban,excellent,8,gas,175000,clean,automatic,4wd,SUV
+chicago,6450,2011,chevrolet,,excellent,4,gas,103055,clean,automatic,fwd,sedan
+chicago,7000,2001,toyota,4runner 4wd,fair,6,gas,181000,clean,automatic,4wd,SUV
+chicago,500,2007,bmw,328xi,like new,6,gas,88000,clean,automatic,4wd,SUV
+chicago,3999,2001,toyota,,good,6,gas,250000,clean,automatic,4wd,SUV
+chicago,6500,2012,ford,focus,excellent,4,gas,99977,clean,automatic,fwd,sedan
+chicago,5700,2004,chevrolet,silverado 1500,good,8,gas,154227,clean,automatic,4wd,truck
+chicago,2950,2006,ford,focus ses,excellent,4,gas,112586,clean,automatic,fwd,sedan
+chicago,4200,2007,toyota,sienna,good,6,gas,163000,clean,automatic,fwd,van
+chicago,2500,2003,ford,f150 truck,fair,8,gas,121202,clean,automatic,4wd,truck
+chicago,2500,2003,ford,f150 truck,fair,8,gas,121202,clean,automatic,4wd,truck
+chicago,7700,2011,lincoln,mkx,like new,6,gas,85000,clean,automatic,4wd,truck
+chicago,4180,2005,ford,focus,fair,4,gas,81867,clean,manual,fwd,sedan
+chicago,24975,2017,ford,transit,good,6,gas,100813,clean,automatic,rwd,van
+chicago,16500,2009,pontiac,g8 gt,good,8,gas,81000,clean,automatic,rwd,sedan
+chicago,6950,2006,ford,escape xlt snow plow,excellent,6,gas,157222,clean,automatic,4wd,SUV
+chicago,4800,2004,toyota,highlander,good,4,gas,126000,clean,automatic,fwd,SUV
+chicago,5200,2005,honda,accord lx,good,4,gas,154000,clean,automatic,fwd,sedan
+chicago,6750,2011,nissan,altima,like new,4,gas,89900,clean,automatic,fwd,sedan
+chicago,8999,2018,kia,forte,good,4,gas,44463,rebuilt,automatic,fwd,sedan
+chicago,7800,2007,ram,1500 megacab,good,8,gas,216000,clean,automatic,4wd,truck
+chicago,4500,2007,honda,odyssey,excellent,6,gas,209000,clean,automatic,fwd,van
+chicago,9992,2012,jeep,liberty,good,6,gas,87903,clean,automatic,4wd,SUV
+chicago,4999,2002,lexus,,excellent,6,gas,103000,clean,automatic,fwd,sedan
+chicago,6432,2006,subaru,outback,fair,4,gas,106074,clean,automatic,4wd,sedan
+chicago,2950,2010,dodge,avenger,excellent,4,gas,127000,clean,automatic,fwd,sedan
+chicago,3700,2006,ford,f-150,good,8,gas,170000,clean,automatic,fwd,truck
+chicago,6599,2003,cadillac,escalade,excellent,8,gas,143142,clean,automatic,4wd,SUV
+chicago,34799,2019,toyota,highlander,fair,6,gas,7239,clean,automatic,4wd,SUV
+chicago,3000,2000,bmw,323ci,good,6,gas,164000,clean,automatic,rwd,coupe
+chicago,13500,2012,mercedes-benz,r350 awd,excellent,6,gas,118000,clean,automatic,4wd,SUV
+chicago,1750,2003,ford,explorer limited 4x4,good,8,gas,193000,clean,automatic,4wd,SUV
+chicago,18000,2018,chevrolet,impala,fair,6,gas,69550,clean,automatic,fwd,sedan
+chicago,13995,2018,chevrolet,equinox,excellent,4,gas,48692,clean,automatic,fwd,SUV
+chicago,1900,2001,chevrolet,geo prizm,excellent,4,gas,132900,clean,automatic,fwd,sedan
+chicago,34900,2017,ford,f150 xlt,like new,6,gas,44500,clean,automatic,4wd,truck
+chicago,4500,2001,lincoln,towncar,excellent,8,gas,80000,clean,automatic,rwd,sedan
+chicago,1000,2003,jeep,wrangler,excellent,6,gas,48252,clean,automatic,4wd,SUV
+chicago,5833,2009,honda,fit,fair,4,gas,165075,clean,automatic,fwd,sedan
+chicago,4250,2006,chevrolet,tahoe z71,good,8,gas,182903,clean,automatic,4wd,SUV
+chicago,23900,2014,ford,f-350 diesel 1owner rust free texas truck,excellent,8,diesel,148459,clean,automatic,4wd,truck
+chicago,500,2013,jeep,grand cherokee hemi,like new,8,gas,75000,clean,automatic,4wd,SUV
+chicago,42000,2020,kia,telluride,like new,6,gas,4000,clean,automatic,fwd,SUV
+chicago,3200,2008,ford,fusion sel,good,6,gas,178000,clean,automatic,4wd,sedan
+chicago,3999,2011,nissan,,excellent,4,gas,115564,clean,automatic,fwd,sedan
+chicago,4300,2005,jaguar,x-type,excellent,6,gas,127375,clean,automatic,4wd,sedan
+chicago,425,1998,subaru,legacy 2.5i limited sedan,fair,4,gas,209000,clean,automatic,4wd,sedan
+chicago,2950,2005,nissan,altima 5s,excellent,4,gas,113000,clean,manual,fwd,sedan
+chicago,4900,1998,ram,1500 quad cab,excellent,8,gas,36000,clean,automatic,rwd,truck
+chicago,5000,2010,honda,civic 2010,good,4,gas,147300,clean,automatic,fwd,sedan
+chicago,5799,2008,toyota,camry,fair,4,gas,153660,clean,automatic,fwd,sedan
+chicago,1500,2006,nissan,sentra,good,4,gas,228580,clean,automatic,fwd,sedan
+chicago,18998,2018,nissan,nv cargo,good,6,gas,35055,clean,automatic,rwd,van
+chicago,16000,2017,hyundai,sonata,like new,4,gas,49395,clean,automatic,fwd,sedan
+chicago,2300,2005,chrysler,sebring,good,6,gas,93099,clean,automatic,fwd,sedan
+chicago,15995,2020,toyota,corolla,fair,4,gas,17100,clean,automatic,fwd,sedan
+chicago,9800,2014,chevrolet,traverse ltz,like new,6,gas,93213,clean,automatic,4wd,SUV
+chicago,8700,2012,volvo,xc60 t6 awd,good,6,gas,148994,clean,automatic,4wd,SUV
+chicago,7899,2010,honda,insight,fair,4,hybrid,83555,clean,automatic,fwd,sedan
+chicago,2500,2005,chevrolet,express 3500,fair,4,gas,231000,clean,automatic,rwd,van
+chicago,1493,2003,jeep,liberty,good,6,gas,168771,clean,automatic,rwd,SUV
+chicago,7250,2006,audi,a3,fair,4,gas,78477,clean,automatic,fwd,sedan
+chicago,2200,1997,honda,cr-v,good,4,gas,134000,clean,automatic,4wd,SUV
+chicago,15488,2014,bmw,3 series,fair,4,gas,82155,clean,automatic,4wd,sedan
+chicago,3900,2012,kia,soul,good,4,gas,67000,clean,automatic,fwd,SUV
+chicago,14000,2007,bmw,335i turbo coupe,good,6,gas,48500,clean,automatic,rwd,coupe
+chicago,3100,2006,toyota,prius,good,4,hybrid,155000,clean,automatic,fwd,sedan
+chicago,13500,2000,ford,f250,good,8,gas,153000,clean,automatic,4wd,truck
+chicago,10900,2011,toyota,sienna se,like new,6,gas,74124,clean,automatic,fwd,van
+chicago,10990,2014,buick,lacrosse premium 3.6 ltr,excellent,6,gas,77000,clean,automatic,fwd,sedan
+chicago,7238,2004,ford,freestar sel,excellent,6,gas,37800,clean,automatic,fwd,van
+chicago,2750,2002,honda,crv ex,good,4,gas,211000,clean,automatic,4wd,SUV
+chicago,7995,2012,volkswagen,beetle,excellent,4,gas,137734,clean,automatic,fwd,sedan
+chicago,1995,2005,honda,odyssey,fair,6,gas,198388,clean,automatic,fwd,van
+chicago,27975,2004,chevrolet,corvette,good,8,gas,7870,clean,manual,4wd,coupe
+chicago,500,2014,chevrolet,malibu,like new,4,gas,90000,clean,automatic,fwd,sedan
+chicago,500,2014,chevrolet,malibu,like new,4,gas,90000,clean,automatic,fwd,sedan
+chicago,5950,2006,ford,escape 4x4 meyer plow,excellent,6,gas,157877,clean,automatic,4wd,SUV
+chicago,12975,2014,chevrolet,express cargo van,good,6,gas,119180,clean,automatic,4wd,van
+chicago,4500,2009,ford,escape,good,6,gas,135000,clean,automatic,4wd,SUV
+chicago,29900,2016,bmw,750i xdrive,good,8,gas,68000,rebuilt,automatic,4wd,sedan
+chicago,13500,2010,mercedes-benz,e550,excellent,8,gas,119000,clean,automatic,4wd,sedan
+chicago,2500,2009,pontiac,g6,good,6,gas,120000,clean,automatic,fwd,sedan
+chicago,8100,2012,volvo,s60,good,5,gas,80204,clean,automatic,fwd,sedan
+chicago,6500,2013,chevrolet,sonic lt 1.8l,excellent,4,gas,85560,clean,automatic,fwd,sedan
+chicago,7500,2009,toyota,4runner,excellent,6,gas,253000,clean,automatic,4wd,SUV
+chicago,4000,1998,cadillac,deville,excellent,8,gas,86000,clean,automatic,rwd,sedan
+chicago,4500,1978,ford,f250 camper special,fair,8,gas,35579,clean,automatic,rwd,truck
+chicago,3500,2004,gmc,envoy,good,6,gas,137000,clean,automatic,4wd,SUV
+chicago,4400,2008,jeep,grand cherokee,good,6,gas,162000,clean,automatic,4wd,SUV
+chicago,8995,2002,mercedes-benz,benz cl500 coupe,excellent,8,gas,111468,clean,automatic,rwd,coupe
+chicago,3000,2002,chevrolet,suburban,fair,8,gas,215000,clean,automatic,4wd,SUV
+chicago,10500,2016,nissan,rouge sl awd,like new,4,gas,51341,clean,automatic,4wd,SUV
+chicago,14997,2013,gmc,acadia,fair,6,gas,86832,clean,automatic,fwd,SUV
+chicago,3950,2011,dodge,grand caravan,good,6,gas,194000,clean,automatic,fwd,van
+chicago,7000,2014,mitsubishi,lancer,excellent,4,gas,126000,clean,automatic,fwd,sedan
+chicago,4800,2013,chrysler,town & country,excellent,6,gas,160000,clean,automatic,fwd,van
+chicago,11900,2014,chrysler,200 4dr sdn limited,excellent,6,gas,83422,clean,automatic,fwd,sedan
+chicago,3350,2007,chevrolet,equinox awd lt,like new,6,gas,152000,clean,automatic,4wd,SUV
+chicago,2900,2003,gmc,envoy xl,excellent,6,gas,204000,clean,automatic,4wd,SUV
+chicago,6950,2008,bmw,535xi,excellent,8,gas,122000,clean,automatic,4wd,sedan
+chicago,15500,2015,chevrolet,impala ltz,excellent,6,gas,46361,clean,automatic,fwd,sedan
+chicago,8995,2014,dodge,grand caravan,good,6,gas,57407,clean,automatic,fwd,van
+chicago,5995,2007,buick,terraza cxl,excellent,6,gas,125117,clean,automatic,fwd,van
+chicago,21975,2016,ford,transit,good,6,gas,23358,clean,automatic,rwd,van
+chicago,9900,2011,nissan,armada,like new,8,gas,99123,clean,automatic,4wd,SUV
+chicago,5900,2009,cadillac,cts4 awd,fair,6,gas,120400,clean,automatic,4wd,sedan
+chicago,2995,2007,ford,five hundred,excellent,6,gas,127000,clean,automatic,fwd,sedan
+chicago,7955,2012,volkswagen,jetta,fair,5,gas,59689,clean,automatic,fwd,sedan
+chicago,4555,2006,toyota,corolla,good,4,gas,119000,clean,manual,fwd,sedan
+chicago,12990,2013,buick,encore,excellent,4,gas,66905,clean,automatic,4wd,SUV
+chicago,6500,2006,cadillac,dts,excellent,8,gas,160000,clean,automatic,fwd,sedan
+chicago,2495,2000,nissan,xterra,good,6,gas,158576,clean,automatic,4wd,SUV
+chicago,2700,2007,buick,lucerne cxl,excellent,6,gas,170000,clean,automatic,fwd,sedan
+chicago,13900,2016,chevrolet,express cargo,fair,8,gas,102190,clean,automatic,rwd,van
+chicago,13900,2016,chevrolet,express cargo,fair,8,gas,102190,clean,automatic,rwd,van
+chicago,4000,2005,chrysler,300,good,4,gas,17526,clean,automatic,rwd,sedan
+chicago,3900,2006,honda,civic lx,good,4,gas,147000,clean,automatic,fwd,sedan
+chicago,9490,2011,volvo,c30 t5 r design,excellent,5,gas,70500,clean,automatic,fwd,coupe
+chicago,7800,2003,chevrolet,geo tracker,excellent,4,gas,11811,clean,automatic,4wd,SUV
+chicago,4900,2008,honda,civic ex sedan,good,4,gas,156000,clean,automatic,fwd,sedan
+chicago,15000,2007,chevrolet,trailblazer ss,excellent,8,gas,147000,clean,automatic,rwd,SUV
+chicago,1750,2002,toyota,echo,like new,4,gas,200000,clean,automatic,fwd,sedan
+chicago,8688,2010,chevrolet,traverse,fair,6,gas,121512,clean,automatic,4wd,SUV
+chicago,14500,2012,ford,f-350,good,8,gas,129853,clean,automatic,4wd,truck
+chicago,5300,2007,volkswagen,passat 2.0 turbo,excellent,4,gas,89500,clean,automatic,fwd,sedan
+chicago,8995,2011,jeep,liberty 4x4,excellent,6,gas,129408,clean,automatic,4wd,SUV
+chicago,6250,2013,chevrolet,caprice ppv,good,6,gas,114000,clean,automatic,rwd,sedan
+chicago,7500,2012,chevrolet,colorado,good,4,gas,110000,clean,automatic,rwd,truck
+chicago,5000,2006,honda,ridgeline,good,4,gas,125000,clean,automatic,4wd,truck
+chicago,2000,2004,mercedes-benz,s500 4matic,excellent,4,gas,2130000,clean,automatic,4wd,sedan
+chicago,4300,2005,honda,odyssey,excellent,6,gas,88000,clean,automatic,fwd,SUV
+chicago,5750,2007,toyota,highlander awd,like new,6,gas,191000,clean,automatic,4wd,SUV
+chicago,5000,2012,honda,pilot,good,6,gas,293000,clean,automatic,4wd,SUV
+chicago,5400,2005,toyota,seinna,good,6,gas,123000,clean,automatic,4wd,van
+chicago,6800,2012,ford,fusion se,excellent,4,gas,128000,clean,automatic,fwd,sedan
+chicago,14991,2014,bmw,3 series,fair,4,gas,74665,clean,automatic,4wd,sedan
+chicago,3450,2010,hyundai,elantra,good,4,gas,160000,clean,automatic,fwd,sedan
+chicago,21000,2011,toyota,tundra 4wd truck crewmax,excellent,8,gas,181000,clean,automatic,4wd,truck
+chicago,25000,2015,dodge,durango r/t,excellent,8,gas,73000,clean,automatic,4wd,SUV
+chicago,21995,2015,lexus,rx 350,fair,6,gas,80843,clean,automatic,4wd,SUV
+chicago,10000,1997,mitsubishi,eclipse spyder,excellent,4,gas,114682,clean,manual,fwd,coupe
+chicago,1500,2003,chevrolet,trailblazer,fair,6,gas,199000,clean,automatic,rwd,SUV
+chicago,3596,1999,chevrolet,tahoe,good,8,gas,143500,clean,automatic,4wd,truck
+chicago,8000,1976,chevrolet,,good,8,gas,56000,clean,manual,rwd,SUV
+chicago,8999,2012,honda,odyssey,like new,4,gas,170000,clean,automatic,fwd,van
+chicago,24700,2021,toyota,rav4 le,like new,4,gas,163,clean,automatic,fwd,SUV
+chicago,10299,2012,toyota,sienna le,good,6,gas,148000,clean,automatic,fwd,van
+chicago,2750,2002,honda,accord,good,6,gas,170000,clean,automatic,fwd,sedan
+chicago,4800,2006,audi,s4 quattro,fair,8,gas,156120,clean,automatic,4wd,sedan
+chicago,5950,2013,chevrolet,equinox,excellent,4,gas,140000,clean,automatic,fwd,SUV
+chicago,10000,2008,cadillac,escalade,good,8,gas,205000,clean,automatic,4wd,SUV
+chicago,12695,2014,ford,escape,fair,4,gas,69613,clean,automatic,fwd,SUV
+chicago,18975,2011,chevrolet,express,good,8,gas,12681,clean,automatic,rwd,van
+chicago,15995,2019,dodge,journey,fair,6,gas,27506,clean,automatic,fwd,SUV
+chicago,17900,2017,honda,cr-v,excellent,4,gas,38000,rebuilt,automatic,4wd,SUV
+chicago,7000,1994,ford,bronco,good,8,gas,185000,clean,automatic,4wd,SUV
+chicago,14350,2018,chevrolet,equinox,excellent,4,gas,7800,rebuilt,automatic,fwd,SUV
+chicago,4400,2010,toyota,corolla le,excellent,4,gas,119000,clean,automatic,fwd,sedan
+chicago,23499,2019,hyundai,santa fe,fair,4,gas,15333,clean,automatic,4wd,SUV
+chicago,500,2013,dodge,challenger,like new,6,gas,73000,clean,automatic,rwd,sedan
+chicago,500,2013,dodge,challenger,like new,6,gas,73000,clean,automatic,rwd,sedan
+chicago,10750,2012,nissan,quest sl,like new,6,gas,78000,clean,automatic,fwd,van
+chicago,9975,2006,ford,econoline,good,8,gas,92271,clean,automatic,rwd,van
+chicago,22497,2017,lexus,is 200t,fair,4,gas,57580,clean,automatic,rwd,sedan
+chicago,2500,2002,acura,tl,good,6,gas,200000,clean,automatic,fwd,sedan
+chicago,6500,2008,gmc,sierra 1500,good,8,gas,180000,clean,automatic,4wd,truck
+chicago,5888,2007,gmc,envoy,good,8,gas,136953,clean,automatic,4wd,SUV
+chicago,15975,2010,lincoln,town car,good,10,gas,39234,clean,automatic,rwd,sedan
+chicago,3900,2004,audi,a8 l quattro,good,8,gas,226740,clean,automatic,4wd,sedan
+chicago,250,2007,mini,van,salvage,6,gas,205787,clean,automatic,fwd,van
+chicago,6500,2007,chevrolet,avalanche,good,8,gas,164000,clean,automatic,4wd,SUV
+chicago,3899,2009,jeep,grand cherokee laredo 4x4,excellent,8,gas,159127,clean,automatic,4wd,SUV
+chicago,13900,1989,chevrolet,silverado 1500,good,8,gas,89955,clean,automatic,rwd,truck
+chicago,6500,2015,chevrolet,impala limited police,good,6,gas,106000,clean,automatic,fwd,sedan
+chicago,1500,2007,chevrolet,trailblazer,good,6,gas,236382,clean,automatic,rwd,truck
+chicago,3900,2004,toyota,highlander,excellent,6,gas,191000,clean,automatic,4wd,SUV
+chicago,5200,2004,lexus,es 330,excellent,6,gas,156000,clean,automatic,fwd,sedan
+chicago,6900,2013,ford,escape,like new,4,gas,88213,clean,automatic,fwd,SUV
+chicago,17900,2015,ford,f-250 4wd one owner rust free truck,excellent,8,gas,173935,clean,automatic,4wd,truck
+chicago,500,2013,dodge,charger,like new,6,gas,101000,clean,automatic,rwd,sedan
+chicago,500,2013,dodge,charger,like new,6,gas,101000,clean,automatic,rwd,sedan
+chicago,16975,2008,toyota,fj cruiser,good,6,gas,124541,clean,automatic,4wd,SUV
+chicago,2700,2003,honda,odyssey,excellent,6,gas,138000,clean,automatic,fwd,van
+chicago,3200,2001,ram,3500 van,good,8,gas,135323,clean,automatic,rwd,SUV
+chicago,1400,2004,chevrolet,tracker,excellent,4,gas,138000,clean,automatic,4wd,SUV
+chicago,45900,2016,cadillac,escalade,like new,8,gas,59900,clean,manual,4wd,SUV
+chicago,5800,2009,toyota,corolla,good,4,gas,105655,clean,automatic,fwd,sedan
+chicago,1500,2009,honda,accord lx-p,excellent,4,gas,120000,clean,automatic,fwd,sedan
+chicago,2000,2002,buick,park avenue,good,6,gas,180000,clean,automatic,fwd,sedan
+chicago,19950,2016,volvo,xc70 awd,excellent,5,gas,21000,rebuilt,automatic,4wd,sedan
+chicago,1700,2004,mazda,mpv es,good,4,gas,200000,clean,automatic,fwd,van
+chicago,29497,2018,bmw,3 series,fair,4,gas,19774,clean,automatic,4wd,sedan
+chicago,34980,2018,audi,s5 premium plus quattro,excellent,6,gas,72506,clean,automatic,4wd,coupe
+chicago,6990,2011,buick,lucerne cxl,excellent,6,gas,119000,clean,automatic,fwd,sedan
+chicago,4555,2011,kia,,excellent,4,gas,154986,clean,automatic,fwd,sedan
+chicago,3200,2009,toyota,yaris s,excellent,4,gas,156000,clean,automatic,fwd,sedan
+chicago,5950,2006,ford,escape meyer snow plow,excellent,6,gas,157876,clean,automatic,4wd,SUV
+chicago,12000,2001,ford,f250 super duty 4x4,good,8,diesel,138000,clean,manual,4wd,truck
+chicago,14700,2002,toyota,tacoma,good,6,gas,160000,clean,manual,4wd,SUV
+chicago,2995,2001,bmw,325,excellent,6,gas,143918,clean,automatic,rwd,sedan
+chicago,8995,1998,jeep,wrangler sahara 4x4,good,6,gas,178000,clean,automatic,4wd,SUV
+chicago,7495,2013,kia,optima lx,good,4,gas,57376,clean,automatic,fwd,sedan
+chicago,6975,2011,ford,crown victoria,good,10,gas,116670,clean,automatic,rwd,sedan
+chicago,5700,2008,toyota,corolla s,excellent,4,gas,130000,clean,automatic,fwd,sedan
+chicago,5000,2008,volkswagen,jetta wolfsburg,good,4,gas,104054,clean,automatic,fwd,sedan
+chicago,3600,2014,nissan,versa sv,good,4,gas,175000,clean,automatic,fwd,sedan
+chicago,3250,2001,chevrolet,express 2500,good,8,gas,105000,clean,automatic,rwd,van
+chicago,2850,2008,kia,optima,good,4,gas,160000,clean,automatic,fwd,sedan
+chicago,1650,2006,kia,optima lx,excellent,4,gas,130000,clean,manual,fwd,sedan
+chicago,9500,2001,toyota,land cruiser,excellent,8,gas,259000,clean,automatic,4wd,SUV
+chicago,4995,2009,chevrolet,equinox lt,good,6,gas,140000,clean,automatic,4wd,SUV
+chicago,15650,2016,acura,ilx,fair,4,gas,42852,clean,automatic,fwd,sedan
+chicago,5000,2012,toyota,camry,good,4,gas,155000,clean,automatic,fwd,sedan
+chicago,1200,2009,nissan,altima s,like new,6,gas,67971,clean,automatic,fwd,sedan
+chicago,2400,2008,kia,spectra lx,good,4,gas,107339,clean,automatic,fwd,sedan
+chicago,2650,1998,chevrolet,astro cargo van,fair,6,gas,240000,clean,automatic,rwd,truck
+chicago,4495,2007,audi,a4,excellent,4,gas,119120,clean,automatic,4wd,sedan
+chicago,4999,2002,bmw,330i (e46 zhp),good,6,gas,107695,clean,automatic,rwd,sedan
+chicago,2900,2006,toyota,scion xb,good,4,gas,143000,clean,automatic,rwd,SUV
+chicago,8000,2012,kia,optina,excellent,4,gas,122642,clean,automatic,fwd,sedan
+chicago,5991,2011,nissan,rogue,fair,4,gas,144436,clean,automatic,fwd,sedan
+chicago,8995,2014,ford,focus se,like new,4,gas,66318,clean,automatic,fwd,sedan
+chicago,2500,1999,toyota,camry,good,6,gas,96000,clean,automatic,fwd,coupe
+chicago,9500,2013,volkswagen,tiguan se,excellent,6,gas,100,clean,automatic,4wd,SUV
+chicago,19500,2013,jeep,wrangler sport 2d,good,6,gas,67000,clean,automatic,4wd,SUV
+chicago,8500,2000,jeep,wrangler sahara,excellent,6,gas,136000,clean,manual,4wd,SUV
+chicago,9750,1994,chevrolet,k25oo cheyenne w.plow,excellent,8,gas,166876,clean,automatic,4wd,truck
+chicago,9750,1994,chevrolet,2500 4x4 w. snow plow,excellent,8,gas,166876,clean,automatic,4wd,truck
+chicago,2995,2003,mercedes-benz,c-class,excellent,4,gas,184281,clean,automatic,rwd,sedan
+chicago,9250,2010,acura,tsx,fair,4,gas,125630,clean,automatic,fwd,sedan
+chicago,3850,2002,honda,accord,excellent,6,gas,143000,clean,automatic,fwd,sedan
+chicago,2700,2007,saturn,ion,excellent,4,gas,153000,clean,automatic,fwd,sedan
+chicago,9995,2016,kia,optima,fair,4,gas,126867,clean,automatic,fwd,sedan
+chicago,14900,1969,cadillac,eldorado,excellent,8,gas,76000,lien,automatic,fwd,coupe
+chicago,10300,2013,honda,accord ex-l,excellent,6,gas,115,clean,automatic,fwd,sedan
+chicago,9950,2013,honda,accord ex-l,excellent,6,gas,115,clean,automatic,fwd,sedan
+chicago,7950,2006,lexus,rx400h,good,6,hybrid,145000,clean,automatic,4wd,SUV
+chicago,3500,2004,bmw,330ci,good,6,gas,112000,clean,automatic,rwd,coupe
+chicago,6450,2006,ford,ranger,excellent,6,gas,131000,rebuilt,automatic,4wd,truck
+chicago,4250,2003,ford,ranger,good,6,gas,199000,clean,automatic,4wd,truck
+chicago,5000,2010,hyundai,sonata,good,4,gas,107000,clean,automatic,fwd,SUV
+chicago,17497,2012,mercedes-benz,e-class,fair,6,gas,53893,clean,automatic,4wd,sedan
+chicago,13797,2015,jeep,compass,fair,4,gas,52085,clean,automatic,4wd,SUV
+chicago,5195,2006,honda,accord ex-l,good,6,gas,149000,clean,automatic,fwd,sedan
+chicago,4999,2006,ford,focus,fair,4,gas,109575,clean,automatic,fwd,sedan
+chicago,15700,2008,chevrolet,avalanche,excellent,8,gas,75900,clean,automatic,4wd,truck
+chicago,8000,2016,lincoln,mkt,good,6,gas,191000,clean,automatic,4wd,SUV
+chicago,13995,2015,toyota,camry le,like new,4,gas,50000,clean,automatic,fwd,sedan
+chicago,19975,2016,ford,transit,good,6,gas,85412,clean,automatic,rwd,van
+chicago,6500,2007,toyota,camry,good,4,gas,117450,clean,automatic,fwd,sedan
+chicago,15900,1978,ford,bronco xlt,good,8,gas,154000,clean,automatic,4wd,truck
+chicago,11990,2013,lincoln,mkz awd,excellent,6,gas,80000,clean,automatic,4wd,sedan
+chicago,2700,2006,hyundai,sonata lx,good,6,gas,161500,clean,automatic,fwd,sedan
+chicago,5999,2009,gmc,,excellent,6,gas,133865,clean,automatic,fwd,SUV
+chicago,5999,2014,nissan,versa,excellent,4,gas,93304,clean,automatic,fwd,sedan
+chicago,8500,2010,toyota,venza xle awd,excellent,4,gas,147000,clean,automatic,4wd,SUV
+chicago,17000,2016,jeep,renegade,fair,4,gas,38977,clean,automatic,4wd,SUV
+chicago,4500,2010,dodge,grand caravan,good,4,gas,90000,clean,automatic,fwd,van
+chicago,5414,2005,toyota,camry,fair,4,gas,131202,clean,manual,fwd,sedan
+chicago,5300,2009,honda,civic lx 2009,excellent,4,gas,127965,clean,automatic,fwd,sedan
+chicago,2850,2000,honda,cr-v,good,4,gas,160000,clean,automatic,4wd,truck
+chicago,4250,2005,honda,pilot touring awd,excellent,6,gas,190000,clean,automatic,4wd,SUV
+chicago,18499,2017,hyundai,santa fe sport,fair,4,gas,35116,clean,automatic,4wd,SUV
+chicago,40990,2017,ford,super duty f-650 straight frame,good,8,diesel,75741,clean,automatic,rwd,truck
+chicago,2850,2009,chevrolet,impala,excellent,6,gas,130000,clean,automatic,fwd,sedan
+chicago,16990,2006,chevrolet,express cargo van,good,8,gas,176894,clean,automatic,rwd,truck
+chicago,3750,2001,pontiac,grand prix,excellent,6,gas,70100,clean,manual,fwd,coupe
+chicago,2680,2001,jeep,cherokee sport 4x4,good,6,gas,204018,clean,automatic,4wd,SUV
+chicago,500,2014,hyundai,elantra,like new,4,gas,60000,clean,automatic,fwd,sedan
+chicago,500,2014,hyundai,elantra,like new,4,gas,60000,clean,automatic,fwd,sedan
+chicago,7200,2007,honda,civic ex navigation,like new,4,gas,98367,clean,automatic,fwd,sedan
+chicago,15100,2008,jeep,wrangler,good,6,gas,110000,clean,automatic,4wd,SUV
+chicago,950,2002,audi,a4,fair,6,gas,198000,clean,automatic,4wd,sedan
+chicago,16950,2019,honda,insight,excellent,4,hybrid,44130,clean,automatic,fwd,sedan
+chicago,2500,2002,mercedes-benz,ml 500,fair,4,gas,90000,clean,automatic,4wd,SUV
+chicago,3200,2007,nissan,altima,excellent,4,gas,124234,clean,automatic,fwd,sedan
+chicago,14497,2016,honda,civic,fair,4,gas,63621,clean,automatic,fwd,sedan
+chicago,7985,2010,dodge,journey sxt,excellent,6,gas,83120,clean,automatic,fwd,SUV
+chicago,4500,2010,mitsubishi,lancer,good,4,gas,150000,clean,automatic,fwd,sedan
+chicago,20000,2013,bmw,550i x-drive,excellent,8,gas,85500,rebuilt,automatic,4wd,sedan
+chicago,49990,2014,ford,super duty f-550 drw,good,8,diesel,39253,clean,automatic,4wd,truck
+chicago,1800,1997,chevrolet,blazer,good,6,gas,200000,clean,automatic,4wd,SUV
+chicago,3995,2005,nissan,murano sl awd,excellent,6,gas,113529,clean,automatic,4wd,sedan
+chicago,17000,2004,chevrolet,silverado 3500,like new,8,diesel,101000,clean,automatic,4wd,SUV
+chicago,5000,2008,dodge,sprinter 2500 extended,fair,4,diesel,425000,clean,automatic,fwd,SUV
+chicago,19000,1980,chevrolet,camaro,good,8,gas,1,clean,automatic,rwd,coupe
+chicago,12990,2010,ford,f-150,excellent,8,gas,166298,clean,automatic,4wd,truck
+chicago,21975,2011,chevrolet,express,good,8,gas,69720,clean,automatic,fwd,van
+chicago,3900,2005,cadillac,cts,excellent,4,gas,147000,clean,automatic,fwd,SUV
+chicago,54780,2020,chevrolet,silverado 3500hd,like new,8,gas,59,clean,automatic,4wd,truck
+chicago,7900,2012,dodge,charger,good,8,gas,96000,clean,automatic,rwd,sedan
+chicago,25000,2015,bmw,x5 xdrive35i awd 35i,excellent,6,gas,48884,clean,automatic,4wd,SUV
+chicago,3900,2004,bmw,x3 2.5i awd,excellent,6,gas,132245,clean,automatic,4wd,SUV
+chicago,15000,2008,subaru,wrx sti,excellent,4,gas,0,lien,manual,4wd,sedan
+chicago,4000,2011,chrysler,200,good,4,gas,148678,clean,automatic,fwd,sedan
+chicago,2150,1996,buick,roadmaster,good,8,gas,100000,clean,automatic,rwd,sedan
+chicago,25999,2016,chevrolet,silverado 1500 lt 4x4,excellent,8,gas,102000,lien,automatic,4wd,truck
+chicago,9990,2010,dodge,dakota,good,6,gas,120971,clean,automatic,4wd,truck
+chicago,3950,2007,bmw,530i,good,6,gas,168000,clean,automatic,rwd,sedan
+chicago,2200,2001,lexus,es300,fair,4,gas,175481,clean,automatic,fwd,sedan
+chicago,12952,2012,acura,rdx,fair,4,gas,80176,clean,automatic,fwd,SUV
+chicago,27492,2018,lexus,nx 300,fair,4,gas,55541,clean,automatic,4wd,sedan
+chicago,4684,2011,ford,fiesta,fair,4,gas,130129,clean,automatic,fwd,sedan
+chicago,6595,2014,ford,focus,excellent,4,gas,66636,clean,automatic,fwd,sedan
+chicago,23990,2010,mercedes-benz,cl-class,good,8,gas,72247,clean,automatic,rwd,coupe
+chicago,5500,2005,toyota,highlander v6 awd,excellent,6,gas,157000,clean,automatic,4wd,SUV
+chicago,2995,2006,chevrolet,aveo,good,4,gas,90542,clean,automatic,fwd,sedan
+chicago,1750,2008,saturn,vue,fair,4,gas,115000,clean,automatic,fwd,SUV
+chicago,16500,2007,ford,f250 super duty,good,8,gas,85000,clean,automatic,4wd,truck
+chicago,11999,2016,jeep,compass sport,excellent,4,gas,61567,clean,automatic,fwd,sedan
+chicago,7500,2008,mercedes-benz,benz e350,good,6,gas,68000,clean,automatic,4wd,sedan
+chicago,3700,2006,nissan,xterra 4wd,excellent,6,gas,140000,clean,automatic,4wd,truck
+chicago,950,2010,ford,escape hybrid,excellent,4,hybrid,150000,clean,automatic,fwd,SUV
+chicago,3900,2003,toyota,rav4,excellent,4,gas,150730,clean,manual,4wd,SUV
+chicago,25000,2012,dodge,challenger,fair,8,gas,20535,clean,manual,rwd,coupe
+chicago,1700,2008,mercury,sable ls premium,good,6,gas,140000,clean,automatic,fwd,sedan
+chicago,17900,2015,ford,f-150,like new,8,gas,55000,clean,automatic,4wd,truck
+chicago,9500,2011,chevrolet,silverado 2500hd,good,8,gas,236000,clean,automatic,4wd,truck
+chicago,8300,2010,nissan,altima,like new,4,gas,68400,clean,automatic,fwd,sedan
+chicago,9900,1979,chevrolet,corvette l82 coupe t-tops very clean,good,8,gas,73999,clean,automatic,rwd,coupe
+chicago,39990,2016,mitsubishi,fuso fe180,good,4,diesel,33474,clean,automatic,rwd,truck
+chicago,4500,2011,nissan,leaf,excellent,4,electric,54000,clean,automatic,fwd,sedan
+chicago,29975,2017,ford,transit,good,6,gas,62354,clean,automatic,rwd,van
+chicago,10455,2013,ford,escape,fair,4,gas,73019,clean,automatic,fwd,SUV
+chicago,17600,2010,lexus,ls460,excellent,8,gas,120000,clean,automatic,4wd,sedan
+chicago,7000,2011,toyota,corolla,good,4,gas,76000,clean,manual,fwd,SUV
+chicago,9975,2013,ford,econoline,good,8,gas,143235,clean,automatic,rwd,van
+chicago,10900,2009,bmw,750i,excellent,8,gas,110000,clean,manual,rwd,sedan
+chicago,2000,2001,toyota,camry le,good,6,gas,168000,clean,automatic,fwd,sedan
+chicago,2500,1993,buick,regal,excellent,6,gas,50700,clean,automatic,fwd,sedan
+chicago,7800,2008,lexus,es350,excellent,6,gas,101000,clean,automatic,fwd,coupe
+chicago,16597,2014,jeep,cherokee,fair,6,gas,55245,clean,automatic,4wd,SUV
+chicago,15950,2012,ram,1500,excellent,8,gas,102708,clean,automatic,4wd,truck
+chicago,2750,2004,chevrolet,impala,good,8,gas,185430,clean,automatic,rwd,sedan
+chicago,4200,1991,jeep,wrangler,good,6,gas,156000,clean,manual,4wd,SUV
+chicago,12499,2015,ford,focus,fair,4,gas,40592,clean,automatic,fwd,sedan
+chicago,21997,2014,jeep,grand cherokee,fair,6,gas,42014,clean,automatic,4wd,SUV
+chicago,12500,2013,dodge,durango,like new,6,gas,78341,clean,automatic,4wd,SUV
+chicago,6000,2007,acura,mdx,excellent,6,gas,130400,clean,automatic,4wd,SUV
+chicago,8900,2012,subaru,outback,good,4,gas,105500,clean,automatic,4wd,sedan
+chicago,15000,2013,bmw,x3,excellent,6,gas,100000,clean,automatic,4wd,SUV
+chicago,9500,2005,chevrolet,express 3500,good,8,gas,95000,clean,automatic,rwd,SUV
+chicago,16500,2006,jeep,wrangler sport,like new,6,gas,89000,clean,automatic,4wd,truck
+chicago,5500,2001,jeep,cherokee sport,like new,6,gas,111600,clean,automatic,4wd,SUV
+chicago,25966,2018,bmw,x1,fair,4,gas,38924,clean,automatic,4wd,SUV
+chicago,12599,2019,nissan,sentra,fair,4,gas,34195,clean,automatic,fwd,sedan
+chicago,3200,2009,ford,fusion,good,6,gas,150000,clean,automatic,fwd,sedan
+chicago,1600,1998,ford,van,fair,8,gas,164000,clean,automatic,rwd,van
+chicago,6100,2007,acura,tsx,good,4,gas,147430,clean,automatic,fwd,sedan
+chicago,7500,2006,porsche,cayenne,excellent,6,gas,125667,clean,automatic,4wd,SUV
+chicago,21500,2013,bmw,335i,excellent,6,gas,45000,clean,automatic,rwd,coupe
+chicago,4500,2013,nissan,altima,good,4,gas,136000,clean,automatic,fwd,sedan
+chicago,2995,2005,toyota,sienna awd,good,6,gas,229865,clean,automatic,4wd,van
+chicago,5995,2010,honda,odyssey lx van,good,4,gas,121700,clean,automatic,fwd,van
+chicago,11963,2014,honda,accord,fair,4,gas,66080,clean,automatic,fwd,sedan
+chicago,8900,2013,honda,civic,good,4,gas,81000,clean,automatic,fwd,sedan
+chicago,8459,2006,mercedes-benz,e-class,fair,6,gas,71846,clean,automatic,rwd,sedan
+chicago,27990,2015,audi,a8l quattro,excellent,6,gas,71000,clean,automatic,4wd,sedan
+chicago,9700,2015,hyundai,accent,fair,4,gas,39138,clean,automatic,fwd,sedan
+chicago,950,2004,pontiac,grand am se1,fair,6,gas,187000,clean,automatic,fwd,sedan
+chicago,15950,2014,infiniti,q50,excellent,6,gas,88317,clean,automatic,4wd,sedan
+chicago,39990,2006,chevrolet,c5c042,good,8,diesel,59850,clean,automatic,4wd,truck
+chicago,2500,2009,ford,escape xlt,good,4,gas,179000,clean,automatic,fwd,SUV
+chicago,2700,2006,subaru,forester 2.5x premium awd,excellent,4,gas,214789,clean,automatic,4wd,SUV
+chicago,6800,2014,chevrolet,captiva ltz,good,4,gas,94050,clean,automatic,fwd,SUV
+chicago,4400,1997,mercury,grand marquis,good,8,gas,53000,clean,automatic,rwd,sedan

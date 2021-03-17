@@ -1,0 +1,221 @@
+DSC 323
+Assignment 5
+Alex Look
+Prof. Gulasingam
+
+CODE
+Part 1
+*join datasets;
+data predict;
+set pred banking;
+RUN;
+
+TITLE"TEST";
+PROC PRINT data=predict;
+RUN;
+
+*computes prediction;
+PROC REG;
+MODEL Balance=Age Education HomeVal Wealth/p cli clm alpha=0.05;
+RUN;
+
+Part 2
+*import data from file;
+proc import datafile="College.csv" out=College replace;
+delimiter=',';
+getnames=yes;
+datarow=2;
+run;
+TITLE"College";
+PROC PRINT;
+RUN;
+
+*Histogram of Grad.Rate;
+PROC UNIVARIATE normal;
+VAR Grad_Rate;
+histogram/normal(mu=est sigma=est);
+RUN;
+
+*Scatterplot for Grad_Rate and Accept_Pct;
+PROC GPLOT;
+PLOT Grad_Rate*(Accept_Pct);
+RUN;
+
+*Scatterplot for Grad_Rate and F_Undergrad;
+PROC GPLOT;
+PLOT Grad_Rate*(F_Undergrad);
+RUN;
+
+*Scatterplot for Grad_Rate and P_Undergrad;
+PROC GPLOT;
+PLOT Grad_Rate*(P_Undergrad);
+RUN;
+
+*Scatterplot for Grad_Rate and Outstate;
+PROC GPLOT;
+PLOT Grad_Rate*(Outstate);
+RUN;
+
+*Scatterplot for Grad_Rate and Room_Board;
+PROC GPLOT;
+PLOT Grad_Rate*(Room_Board);
+RUN;
+
+*Scatterplot for Grad_Rate and Books;
+PROC GPLOT;
+PLOT Grad_Rate*(Books);
+RUN;
+
+*Scatterplot for Grad_Rate and Personal;
+PROC GPLOT;
+PLOT Grad_Rate*(Personal);
+RUN;
+
+*Scatterplot for Grad_Rate and PhD;
+PROC GPLOT;
+PLOT Grad_Rate*(PhD);
+RUN;
+
+*Scatterplot for Grad_Rate and Terminal;
+PROC GPLOT;
+PLOT Grad_Rate*(Terminal);
+RUN;
+
+*Scatterplot for Grad_Rate and S_F_Ratio;
+PROC GPLOT;
+PLOT Grad_Rate*(S_F_Ratio);
+RUN;
+
+*Scatterplot for Grad_Rate and perc_alumni;
+PROC GPLOT;
+PLOT Grad_Rate*(perc_alumni);
+RUN;
+
+*Scatterplot for Grad_Rate and Expend;
+PROC GPLOT;
+PLOT Grad_Rate*(Expend);
+RUN;
+
+*Sctterplot for Grad_Rate and Private;
+PROC GPLOT;
+PLOT Grad_Rate*(Private);
+RUN;
+
+*Scatterplot for Grad_Rate and Elite10;
+PLOT GPLOT;
+PLOT Grad_Rate*(Elite10);
+RUN;
+
+*Scatterplot for Grad_Rate and school;
+PLOT GPLOT;
+PLOT Grad_Rate*(school);
+RUN;
+
+*Creation of dummy variables;
+data College;
+set College;
+public=(Private="No");*Dummy variable for public schools;
+elite=(Elite10="1"); *Dummy variable for elite schools;
+RUN;
+
+PROC SORT;
+BY public;
+RUN;
+
+PROC SORT;
+BY elite;
+RUN;
+
+*Boxplot of Public vs private;
+TITLE"Public vs Priavte";
+PROC BOXPLOT;
+plot Grad_Rate * public;
+RUN;
+
+*Boxplot of Elite vs not elite;
+TITLE"Elite vs Not Elite";
+PROC BOXPLOT;
+plot Grad_Rate * elite;
+RUN;
+
+*Regression model of Grad_Rate;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Books Personal PhD Terminal S_F_Ratio perc_alumni Expend;
+RUN;
+
+*Regression model of Grad_Rate without S_F_Ratio;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Books Personal PhD Terminal perc_alumni Expend;
+RUN;
+
+*Regression model of Grad_Rate without Books;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD Terminal perc_alumni Expend;
+RUN;
+
+*Regression model of Grad_Rate without Terminal;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD perc_alumni Expend;
+RUN;
+
+*Regression with VIF;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD perc_alumni Expend/VIF;
+RUN;
+
+*Regression model of Full independent variables Froward Selection;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Books Personal PhD Terminal S_F_Ratio perc_alumni Expend/ selection=forward;
+RUN;
+
+*Regression model of Full independent variables Backward Selection;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Books Personal PhD Terminal S_F_Ratio perc_alumni Expend/ selection=backward;
+RUN;
+
+
+*Re-running VIF to see final regression model;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD perc_alumni Expend/VIF;
+RUN;
+
+*Residual Plot;
+PLOT student.*predicted.;
+PLOT student.*(public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD perc_alumni Expend);
+PLOT npp.*student;
+RUN;
+
+*Influential points and Outliers;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD perc_alumni Expend/influence r;
+PLOT student.*(public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD perc_alumni Expend predicted.);
+PLOT npp. *student.;
+RUN;
+
+*Removal of influential points and outliers;
+data new College;
+set College;
+if _n_ in (39, 57, 75, 88, 199, 238, 293, 360, 529, 563, 619, 640, 725, 730, 758) then delete;
+RUN;
+
+*Re-Ran Influential points and Outliers;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD perc_alumni Expend/influence r;
+PLOT student.*(public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD perc_alumni Expend predicted.);
+PLOT npp. *student.;
+RUN;
+
+*Removal of influential points and outliers;
+data newCollege;
+set College;
+if _n_ in (113, 234, 278, 464, 492, 573, 652, 742) then delete;
+RUN;
+
+*Re-Ran Influential points and Outliers;
+PROC REG;
+MODEL Grad_Rate=public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD perc_alumni Expend/influence r;
+PLOT student.*(public elite Accept_pct F_Undergrad P_Undergrad Outstate Room_Board Personal PhD perc_alumni Expend predicted.);
+PLOT npp. *student.;
+RUN;
+
+

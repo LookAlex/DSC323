@@ -1,0 +1,217 @@
+DSC 323
+Assignment 4
+Alex Look
+Prof. Gulasingam
+
+CODE
+Part 1
+*PROC IMPORT;
+PROC IMPORT DATAFILE="Bankingfull.txt" out=banking replace;
+DELIMITER='09'x;
+GETNAMES=yes;
+DATAROW=2;
+RUN;
+PROC PRINT data=banking;
+RUN;
+TITLE"Banking";
+PROC PRINT;
+RUN;
+
+*Scatterplot for Balance and Age;
+PROC GPLOT;
+PLOT Balance*(Age);
+RUN;
+*Scatterplot for Balance and Education;
+PROC GPLOT;
+PLOT Balance*(Education);
+RUN;
+*Scatterplot for Balance and Income;
+PROC GPLOT;
+PLOT Balance*(Income);
+RUN;
+*Scatterplot for Balance and HomeVal;
+PROC GPLOT;
+PLOT Balance*(HomeVal);
+RUN;
+*Scatterplot for Balance and Wealth;
+PROC GPLOT;
+PLOT Balance*(Wealth);
+RUN;
+
+*Correlation Values;
+PROC CORR;
+VAR Balance Age Education Income HomeVal Wealth;
+RUN;
+
+*Regression with VIF;
+PROC REG;
+MODEL Balance=Age Education Income HomeVal Wealth/VIF;
+RUN;
+
+*Regression with VIF without Income;
+PROC REG;
+MODEL Balance=Age Education HomeVal Wealth/VIF;
+RUN;
+
+*Regression model to Predict Balance;
+PROC REG;
+MODEL Balance=Age Education HomeVal Wealth;
+*Residual Plot;
+PLOT student.*predicted.;
+PLOT student.*(Age Education HomeVal Wealth);
+PLOT npp.*student;
+RUN;
+*Run model with outlier-use original;
+PROC REG;
+MODEL Balance=Age Education HomeVal Wealth/influence r;
+PLOT student.*(Age Edcuation HomeVal Wealth predicted.);
+PLOT npp.*student.;
+RUN;
+
+*Removal of outliers and influential points;
+data newbanking;
+set banking;
+if _n_ in (38, 77, 84, 85, 91) then delete;
+RUN;
+
+
+*Regression model to Predict Balance with removal of outliers and influential points;
+PROC REG;
+MODEL Balance=Age Education HomeVal Wealth;
+RUN;
+
+*New Model without outlier or influential points;
+PROC reg data=newbanking;
+MODEL Balance=Age Education HomeVal Wealth/influence r;
+PLOT student.*(Age Education HomeVal Wealth predicted.);
+PLOT npp.*student.;
+RUN;
+
+*Removal of outliers and influential points part 2;
+data newbankingtwo;
+set newbanking;
+if _n_ in (58, 80, 97) then delete;
+RUN;
+
+*Regression model to Predict Balance with removal of outliers and influential points;
+PROC REG;
+MODEL Balance=Age Education HomeVal Wealth;
+RUN;
+
+*New Model without outlier or influential points;
+PROC reg data=newbankingtwo;
+MODEL Balance=Age Education HomeVal Wealth/influence r;
+PLOT student.*(Age Education HomeVal Wealth predicted.);
+PLOT npp.*student.;
+RUN;
+
+
+*Regression with standardized coefficients;
+PROC REG;
+MODEL Balance=Age Education HomeVal Wealth/stb;
+RUN;
+
+Part 2
+
+*import data from file;
+proc import datafile="pgatour2006.csv" out=PGATour replace;
+delimiter=',';
+getnames=yes;
+run;
+TITLE"PGA GOLF";
+PROC PRINT;
+RUN;
+*Scatterplot for PrizeMoney and DrivingAccuracy;
+PROC GPLOT;
+PLOT PrizeMoney*(DrivingAccuracy);
+RUN;
+
+*Scatterplot for PrizeMoney and GIR;
+PROC GPLOT;
+PLOT PrizeMoney*(GIR);
+RUN;
+
+*Scatterplot for PrizeMoney and BirdieConversion;
+PROC GPLOT;
+PLOT PrizeMoney*(BirdieConversion);
+RUN;
+
+*Scatterplot for PrizeMoney and PuttingAverage;
+PROC GPLOT;
+PLOT PrizeMoney*(PuttingAverage);
+RUN;
+
+*Scatterplot for PrizeMoney and PuttsPerRound;
+PROC GPLOT;
+PLOT PrizeMoney*(PuttsPerRound);
+RUN;
+
+*Histogram to find distribution;
+PROC UNIVARIATE normal;
+VAR PrizeMoney;
+histogram/normal(mu=est sigma=est);
+RUN;
+
+*Create log prize variable in a data step;
+data PGATour;
+*Set command copeis orginal PGATour dataset;
+set PGATour;
+*Log transformation of PrizeMoney;
+ln_prize=log(PrizeMoney);
+PROC PRINT;
+RUN;
+
+*Histogram of ln_prize;
+PROC UNIVARIATE normal;
+VAR ln_prize;
+histogram/normal(mu=est sigma=est);
+RUN;
+
+*Regression Model of ln_prize;
+PROC REG;
+MODEL ln_prize=DrivingAccuracy GIR BirdieConversion PuttingAverage PuttsPerRound;
+RUN;
+
+*Regression Model of ln_prize without DrivingAccuracy;
+PROC REG;
+MODEL ln_prize=GIR BirdieConversion PuttingAverage PuttsPerRound;
+RUN;
+
+*Regression Model of ln_prize without PuttingAverage;
+PROC REG;
+MODEL ln_prize=GIR BirdieConversion PuttsPerRound;
+RUN;
+
+*Residual Plot of ln_prize;
+PROC REG;
+MODEL ln_prize=GIR BirdieConversion PuttsPerRound;
+*Residual Plot;
+PLOT student.*predicted.;
+PLOT student.*(GIR BirdieConversion PuttsPerRound);
+PLOT npp.*student;
+RUN;
+
+*Run model with outlier-use original;
+PROC REG;
+MODEL ln_prize=GIR BirdieConversion PuttsPerRound/influence r;
+plot student.*(GIR BirdieConversion PuttsPerRoun predicted.);
+plot npp.*student.;
+RUN;
+
+*Removal of outliers and influential points;
+data newPGATour;
+set PGATour;
+if _n_ in (40, 185) then delete;
+RUN;
+
+*Regression Model of ln_prize without PuttingAverage;
+PROC REG;
+MODEL ln_prize=GIR BirdieConversion PuttsPerRound;
+RUN;
+
+*New model without outlier/influential points;
+PROC REG;
+MODEL ln_prize=GIR BirdieConversion PuttsPerRound/influence r;
+plot student.*(GIR BirdieConversion PuttsPerRoun predicted.);
+plot npp.*student.;
+RUN;

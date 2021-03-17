@@ -1,0 +1,74 @@
+DSC 323
+Assignment 3
+Alex Look
+Prof. Gulasingam
+
+CODE
+Part 1
+*Regression model to predict Balance;
+PROC REG data=Balance;
+MODEL Balance= Age Income;
+*Residual Plots;
+PLOT student.*predicted.;
+PLOT student.*(Age Income);
+PLOT npp.*student;
+RUN;
+
+
+Part 2
+*PROC IMPORT;
+PROC IMPORT DATAFILE="HouseSales.txt" out=Sales_import replace;
+DELIMITER='09'x;
+GETNAMES=yes;
+DATAROW=2;
+RUN;
+PROC PRINT data=Sales_import;
+RUN;
+
+data Sales_import;
+set Sales_import;
+d_type=(Type="SF");*Dummy variable for SF or single family home;
+d_region=(Region="M");*Dummy variable for M or Midwest;
+RUN;
+
+PROC PRINT data=Sales_import;
+RUN;
+
+*Scatterplot GPLOT for Selling Price and Cost;
+PROC GPLOT;
+PLOT Price*(Cost);
+RUN;
+
+*Scatterplot GPLOT for Selling Price and Home;
+PROC GPLOT;
+PLOT Price*(d_type);
+RUN;
+
+*Scatterplot GPLOT for Selling Price and Region;
+PROC GPLOT;
+PLOT Price*(d_region);
+RUN;
+
+*Correlation Values;
+PROC CORR;
+VAR d_region d_type Price Cost;
+RUN;
+
+*Regression Analysis;
+PROC REG;
+MODEL Price=Cost d_region d_type;
+RUN;
+
+*Regression Model without d_region;
+PROC REG;
+MODEL Price=Cost d_type;
+RUN;
+
+*Regression model to Predict Price;
+PROC REG data=Price;
+MODEL Price=Cost d_type;
+*Residual Plot;
+PLOT student.*predicted.;
+PLOT student.*(Cost d_type);
+PLOT npp.*student;
+RUN;

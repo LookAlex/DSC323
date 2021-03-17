@@ -1,0 +1,45 @@
+DSC 323
+Assignment 1
+Alex Look
+Prof. Gulasingam
+
+CODE
+* PROC IMPORT;
+PROC IMPORT DATAFILE="voting_1992.txt" out=voting replace;
+DELIMITER='09'x;
+GETNAMES=yes;
+DATAROW=2;
+RUN;
+
+TITLE"Voting 1992";
+PROC PRINT;
+RUN;
+
+*Descriptives;
+TITLE"Descriptives";
+PROC MEANS max min p25 p50 p75;
+VAR Pct_Voted MedianAge MeanSavings Pct_Poverty PopulationDensity;
+RUN;
+
+*Histogram;
+PROC UNIVARIATE normal;
+VAR Pct_Voted;
+histogram / normal (mu=est sigma=est);
+RUN;
+
+*Sort by Gender;
+PROC SORT;
+BY Gender;
+RUN;
+
+*Boxplot;
+Title"Percentage voted by Gender";
+PROC Boxplot;
+plot Pct_Voted*Gender;
+RUN;
+
+*Frequency;
+TITLE"Frequency - Gender";
+PROC FREQ;
+TABLES Gender;
+RUN;

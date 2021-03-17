@@ -1,0 +1,77 @@
+DSC 323
+Assignment 6
+Alex Look
+Prof. Gulasingam
+
+CODE
+*import data from file;
+proc import datafile="churn_train.csv" out=Churn replace;
+delimiter=',';
+getnames=yes;
+datarow=2;
+run;
+
+TITLE"Churn";
+PROC PRINT;
+RUN;
+
+*Boxplot of age by Churn;
+TITLE"AGE By Churn";
+PROC BOXPLOT;
+plot AGE * CHURN;
+RUN;
+
+*Boxplot of PCT_CHNG_BILL_AMT by Churn;
+TITLE"PCT_CHNG_BILL_AMT By Churn";
+PROC BOXPLOT;
+plot PCT_CHNG_BILL_AMT * CHURN;
+RUN;
+
+*Dummy variable creation for Gender;
+data Churn;
+set Churn;
+Male=(GENDER="M");*Dummy variable for Male;
+RUN;
+
+*Fit logistic model, and run forward selection procedure (USING THIS TEST);
+PROC LOGISTIC data=Churn;
+model CHURN(event='1')=Male EDUCATION LAST_PRICE_PLAN_CHNG_DAY_CNT TOT_ACTV_SRV_CNT AGE PCT_CHNG_IB_SMS_CNT PCT_CHNG_BILL_AMT COMPLAINT/selection=forward rsquare;
+RUN;
+
+*Fit logistic model, and run backward selection procedure (DID THIS TO TEST HOW IT WORKS);
+PROC LOGISTIC data=Churn;
+model CHURN(event='1')=Male EDUCATION LAST_PRICE_PLAN_CHNG_DAY_CNT TOT_ACTV_SRV_CNT AGE PCT_CHNG_IB_SMS_CNT PCT_CHNG_BILL_AMT COMPLAINT/selection=backward rsquare;
+RUN;
+
+*Fit logistic model, and run stepwise selection procedure (DID THIS TO TEST HOW IT WORKS);
+PROC LOGISTIC data=Churn;
+model CHURN(event='1')=EDUCATION LAST_PRICE_PLAN_CHNG_DAY_CNT TOT_ACTV_SRV_CNT AGE PCT_CHNG_IB_SMS_CNT PCT_CHNG_BILL_AMT COMPLAINT/selection=backward rsquare;
+RUN;
+
+*Predicted Values;
+data new;
+input LAST_PRICE_PLAN_CHNG_DAY_CNT TOT_ACTV_SRV_CNT AGE PCT_CHNG_IB_SMS_CNT PCT_CHNG_BILL_AMT COMPLAINT Male;
+DATALINES;
+0 4 43 1.04 1.19 1 1
+;
+RUN;
+PROC PRINT;
+RUN;
+
+*Merge prediction dataset with original dataset;
+data prediction;
+set new Churn;
+RUN;
+PROC PRINT;
+RUN;
+
+*Run prediction;
+PROC LOGISTIC;
+TITLE"Predictions";
+MODEL CHURN (event='1')=LAST_PRICE_PLAN_CHNG_DAY_CNT TOT_ACTV_SRV_CNT AGE PCT_CHNG_IB_SMS_CNT PCT_CHNG_BILL_AMT COMPLAINT Male;
+OUTPUT out=prediction p=phat lower=lcl upper=ucl predprob=(individual);
+RUN;
+
+*Print predicted probabilities and confidence intervals;
+PROC PRINT data=prediction;
+RUN;

@@ -1,0 +1,64 @@
+DSC 323
+Assignment 2
+Alex Look
+Prof. Gulasingam
+
+CODE
+*PROC IMPORT; 
+PROC IMPORT DATAFILE="Banking.txt" out=banking replace;
+DELIMITER='09'x;
+GETNAMES=yes;
+DATAROW=2;
+RUN;
+
+TITLE"Banking";
+PROC PRINT;
+RUN;
+
+*Descriptives;
+TITLE"Descriptives";
+PROC MEANS mean std stderr clm p25 p50 p75;
+VAR Age Education Income Balance;
+RUN; 
+
+*Histogram;
+PROC UNIVARIATE normal;
+VAR Balance;
+histogram/normal (mu=est sigma=est);
+RUN;
+
+*Scatterplot Matrix (This is practice getting used to the code I did not use this for Assignment2 answers);
+PROC SGSCATTER;
+TITLE "Scatterplot Matrix for Banking";
+MATRIX Balance Age Education Income;
+RUN;
+
+*Scatterplot GPlot for Balance and Age;
+PROC GPLOT;
+PLOT Balance*(Age);
+RUN;
+
+*Scatterplot GPlot for Balance and Education;
+PROC GPLOT;
+PLOT Balance*(Education);
+RUN;
+
+*Scatterplot GPlot for Balance and Education;
+PROC GPLOT;
+PLOT Balance*(Income);
+RUN;
+
+*Correlation Values;
+PROC CORR;
+VAR Balance Age Education Income;
+RUN;
+
+*Regression Analysis;
+PROC REG;
+MODEL Balance= Age Education Income;
+RUN;
+
+*Regression Model without Education;
+PROC REG;
+MODEL Balance= Age Income;
+RUN;
